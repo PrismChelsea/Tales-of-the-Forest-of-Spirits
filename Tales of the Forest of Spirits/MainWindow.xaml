@@ -1,0 +1,14 @@
+﻿<Window x:Class="Tales_of_the_Forest_of_Spirits.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tales_of_the_Forest_of_Spirits"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="startsbutton" Content="Let the adventure begin" HorizontalAlignment="Center" Margin="0,295,0,0" VerticalAlignment="Top" Height="89" Width="332" FontSize="25" FontFamily="SimSun" Click="startsbutton_Click"/>
+        <Label x:Name="welcomelabel" Content="Tales of the Forest of Spirits" HorizontalAlignment="Center" Height="71" VerticalAlignment="Center" Width="656" FontSize="40" FontStyle="Italic" FontFamily="SimSun" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

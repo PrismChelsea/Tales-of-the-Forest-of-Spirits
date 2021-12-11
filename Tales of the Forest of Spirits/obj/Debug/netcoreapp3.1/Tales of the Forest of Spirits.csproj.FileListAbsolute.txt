@@ -1,0 +1,19 @@
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\bin\Debug\netcoreapp3.1\Tales of the Forest of Spirits.exe
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\bin\Debug\netcoreapp3.1\Tales of the Forest of Spirits.deps.json
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\bin\Debug\netcoreapp3.1\Tales of the Forest of Spirits.runtimeconfig.json
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\bin\Debug\netcoreapp3.1\Tales of the Forest of Spirits.runtimeconfig.dev.json
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\bin\Debug\netcoreapp3.1\Tales of the Forest of Spirits.dll
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\bin\Debug\netcoreapp3.1\Tales of the Forest of Spirits.pdb
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.csproj.AssemblyReference.cache
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits_MarkupCompile.cache
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits_MarkupCompile.lref
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.g.resources
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.AssemblyInfoInputs.cache
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.AssemblyInfo.cs
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.csproj.CoreCompileInputs.cache
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.dll
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.pdb
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.genruntimeconfig.cache
