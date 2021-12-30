@@ -13,6 +13,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
+
+
 namespace Tales_of_the_Forest_of_Spirits
 {
     /// <summary>
@@ -59,6 +62,7 @@ namespace Tales_of_the_Forest_of_Spirits
             magic = true;
             fear = false;
             creature = "p";
+            pixiebutton.Content = "";
             chooselabel.Visibility = Visibility.Collapsed;
             elfbutton.Visibility = Visibility.Collapsed;
             bansheebutton.Visibility = Visibility.Collapsed;
@@ -73,6 +77,7 @@ namespace Tales_of_the_Forest_of_Spirits
             magic = false;
             fear = false;
             creature = "e";
+            elfbutton.Content = "";
             chooselabel.Visibility = Visibility.Collapsed;
             pixiebutton.Visibility = Visibility.Collapsed;
             bansheebutton.Visibility = Visibility.Collapsed;
@@ -87,6 +92,7 @@ namespace Tales_of_the_Forest_of_Spirits
             magic = false;
             fear = true;
             creature = "b";
+            bansheebutton.Content = "";
             chooselabel.Visibility = Visibility.Collapsed;
             pixiebutton.Visibility = Visibility.Collapsed;
             elfbutton.Visibility = Visibility.Collapsed;
@@ -98,7 +104,7 @@ namespace Tales_of_the_Forest_of_Spirits
         private void hplabel_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)
         {
             hplabel.Content = "HP: " + hp;
-            
+
         }
 
         private void creaturelabel_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)

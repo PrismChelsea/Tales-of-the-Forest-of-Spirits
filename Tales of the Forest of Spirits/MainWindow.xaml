@@ -7,12 +7,41 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="startsbutton" Content="Let the adventure begin" HorizontalAlignment="Center" Margin="0,295,0,0" VerticalAlignment="Top" Height="89" Width="332" FontSize="25" FontFamily="SimSun" Click="startsbutton_Click"/>
-        <Label x:Name="welcomelabel" Content="Tales of the Forest of Spirits" HorizontalAlignment="Center" Height="71" VerticalAlignment="Center" Width="656" FontSize="40" FontStyle="Italic" FontFamily="SimSun" FontWeight="Bold"/>
+        <Button x:Name="startsbutton" Content="Let the adventure begin" HorizontalAlignment="Center" Margin="0,295,0,0" VerticalAlignment="Top" Height="89" Width="332" FontSize="25" FontFamily="SimSun" Click="startsbutton_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/gold.jpg" TileMode="Tile"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name="welcomelabel" Content="Tales of the Forest of Spirits" HorizontalAlignment="Center" Height="71" VerticalAlignment="Center" Width="656" FontSize="40" FontStyle="Italic" FontFamily="SimSun" FontWeight="Bold">
+            <Label.Foreground>
+                <ImageBrush ImageSource="/gold.jpg"/>
+            </Label.Foreground>
+        </Label>
         <Label x:Name="chooselabel" Content="What creature would you like to be?" HorizontalAlignment="Center" Height="64" Margin="0,340,0,0" VerticalAlignment="Top" Width="540" FontFamily="SimSun" FontSize="30"/>
-        <Button x:Name="pixiebutton" Content="Pixie" HorizontalAlignment="Left" Height="180" Margin="72,68,0,0" VerticalAlignment="Top" Width="179" FontFamily="SimSun" FontSize="20" Click="pixiebutton_Click"/>
-        <Button x:Name="elfbutton" Content="Elf" HorizontalAlignment="Center" Height="180" Margin="0,73,0,0" VerticalAlignment="Top" Width="180" FontFamily="SimSun" FontSize="20" Click="elfbutton_Click"/>
-        <Button x:Name="bansheebutton" Content="Banshee" HorizontalAlignment="Left" Height="180" Margin="549,73,0,0" VerticalAlignment="Top" Width="179" FontFamily="SimSun" FontSize="20" Click="bansheebutton_Click"/>
+        <Button x:Name="pixiebutton" Content="Pixie" HorizontalAlignment="Left" Height="180" Margin="72,68,0,0" VerticalAlignment="Top" Width="179" FontFamily="SimSun" FontSize="20" Click="pixiebutton_Click" BorderBrush="{x:Null}">
+            <Button.Foreground>
+                <ImageBrush ImageSource="/gold.jpg"/>
+            </Button.Foreground>
+            <Button.Background>
+                <ImageBrush ImageSource="/pixie.PNG"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="elfbutton" Content="Elf" HorizontalAlignment="Center" Height="180" Margin="0,73,0,0" VerticalAlignment="Top" Width="180" FontFamily="SimSun" FontSize="20" Click="elfbutton_Click" BorderBrush="{x:Null}">
+            <Button.Foreground>
+                <ImageBrush ImageSource="/gold.jpg"/>
+            </Button.Foreground>
+            <Button.Background>
+                <ImageBrush ImageSource="/elf.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="bansheebutton" Content="Banshee" HorizontalAlignment="Left" Height="180" Margin="549,73,0,0" VerticalAlignment="Top" Width="179" FontFamily="SimSun" FontSize="20" Click="bansheebutton_Click" BorderBrush="{x:Null}">
+            <Button.Foreground>
+                <ImageBrush ImageSource="/gold.jpg"/>
+            </Button.Foreground>
+            <Button.Background>
+                <ImageBrush ImageSource="/banshee.PNG"/>
+            </Button.Background>
+        </Button>
         <Label x:Name="hplabel" Content="" HorizontalAlignment="Left" Height="37" Margin="10,11,0,0" VerticalAlignment="Top" Width="88" FontFamily="SimSun" FontSize="20" IsVisibleChanged="hplabel_IsVisibleChanged"/>
         <Label x:Name="creaturelabel" Content="" HorizontalAlignment="Left" Height="37" Margin="103,11,0,0" VerticalAlignment="Top" Width="672" FontFamily="SimSun" FontSize="20" IsVisibleChanged="creaturelabel_IsVisibleChanged"/>
 
