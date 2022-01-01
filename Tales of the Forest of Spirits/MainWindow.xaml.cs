@@ -29,19 +29,43 @@ namespace Tales_of_the_Forest_of_Spirits
         public bool fear = false;
         public string creature;
 
+
         public MainWindow()
         {
             InitializeComponent();
             startsbutton.Visibility = Visibility.Visible;
             welcomelabel.Visibility = Visibility.Visible;
+            namelabel.Visibility = Visibility.Collapsed;
+            namebox.Visibility = Visibility.Collapsed;
             chooselabel.Visibility = Visibility.Collapsed;
             pixiebutton.Visibility = Visibility.Collapsed;
             elfbutton.Visibility = Visibility.Collapsed;
             bansheebutton.Visibility = Visibility.Collapsed;
             creaturelabel.Visibility = Visibility.Collapsed;
             hplabel.Visibility = Visibility.Collapsed;
+            readybutton.Visibility = Visibility.Collapsed;
+            readybutton.IsEnabled = false;
 
+        }
 
+        private void Check()
+        {
+            string name = namebox.Text;
+            try
+            {
+                if (name.Length >= 8 || name.Length <= 2)
+                {
+                    throw new Exception();
+                }
+                else
+                {
+                    readybutton.IsEnabled = true;
+                }
+            }
+            catch (Exception)
+            {
+                readybutton.IsEnabled = false;
+            }
         }
 
         public void startsbutton_Click(object sender, RoutedEventArgs e)
@@ -52,7 +76,7 @@ namespace Tales_of_the_Forest_of_Spirits
             pixiebutton.Visibility = Visibility.Visible;
             elfbutton.Visibility = Visibility.Visible;
             bansheebutton.Visibility = Visibility.Visible;
-
+      
         }
 
         private void pixiebutton_Click(object sender, RoutedEventArgs e)
@@ -68,6 +92,10 @@ namespace Tales_of_the_Forest_of_Spirits
             bansheebutton.Visibility = Visibility.Collapsed;
             creaturelabel.Visibility = Visibility.Visible;
             hplabel.Visibility = Visibility.Visible;
+            namelabel.Visibility = Visibility.Visible;
+            namebox.Visibility = Visibility.Visible;
+            readybutton.Visibility = Visibility.Visible;
+
         }
 
         private void elfbutton_Click(object sender, RoutedEventArgs e)
@@ -83,6 +111,9 @@ namespace Tales_of_the_Forest_of_Spirits
             bansheebutton.Visibility = Visibility.Collapsed;
             creaturelabel.Visibility = Visibility.Visible;
             hplabel.Visibility = Visibility.Visible;
+            namelabel.Visibility = Visibility.Visible;
+            namebox.Visibility = Visibility.Visible;
+            readybutton.Visibility = Visibility.Visible;
         }
 
         private void bansheebutton_Click(object sender, RoutedEventArgs e)
@@ -98,6 +129,10 @@ namespace Tales_of_the_Forest_of_Spirits
             elfbutton.Visibility = Visibility.Collapsed;
             creaturelabel.Visibility = Visibility.Visible;
             hplabel.Visibility = Visibility.Visible;
+            namelabel.Visibility = Visibility.Visible;
+            namebox.Visibility = Visibility.Visible;
+            readybutton.Visibility = Visibility.Visible;
+
         }
 
 
@@ -115,12 +150,34 @@ namespace Tales_of_the_Forest_of_Spirits
             }
             else if (creature == "e")
             {
-                creaturelabel.Content = "Your powers are: bribing, turning into an objetóct and retreating";
+                creaturelabel.Content = "Your powers are: bribing, turning into an object and retreating";
             }
             else if (creature == "b")
             {
                 creaturelabel.Content = "Your powers are: screaming, teleportation and staring menacingly";
             }
+        }
+
+        
+
+        private void readybutton_Click(object sender, RoutedEventArgs e)
+        {
+            
+            chooselabel.Visibility = Visibility.Collapsed;
+            pixiebutton.Visibility = Visibility.Collapsed;
+            elfbutton.Visibility = Visibility.Collapsed;
+            bansheebutton.Visibility = Visibility.Collapsed;
+            creaturelabel.Visibility = Visibility.Collapsed;
+            hplabel.Visibility = Visibility.Visible;
+            namelabel.Visibility = Visibility.Collapsed;
+            readybutton.Visibility = Visibility.Collapsed;
+            namebox.IsEnabled = false;
+            namebox.Margin = new Thickness(10, 150, 0, 0);
+        }
+
+        private void namebox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            Check();
         }
     }
 }
