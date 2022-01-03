@@ -45,6 +45,8 @@ namespace Tales_of_the_Forest_of_Spirits
             hplabel.Visibility = Visibility.Collapsed;
             readybutton.Visibility = Visibility.Collapsed;
             readybutton.IsEnabled = false;
+            fightstartbutton.Visibility = Visibility.Collapsed;
+
 
         }
 
@@ -53,7 +55,7 @@ namespace Tales_of_the_Forest_of_Spirits
             string name = namebox.Text;
             try
             {
-                if (name.Length >= 8 || name.Length <= 2)
+                if (name.Length >= 16 || name.Length <= 2)
                 {
                     throw new Exception();
                 }
@@ -68,6 +70,17 @@ namespace Tales_of_the_Forest_of_Spirits
             }
         }
 
+        private void Vanish()
+        {
+            chooselabel.Visibility = Visibility.Collapsed;
+            creaturelabel.Visibility = Visibility.Visible;
+            hplabel.Visibility = Visibility.Visible;
+            namelabel.Visibility = Visibility.Visible;
+            namebox.Visibility = Visibility.Visible;
+            readybutton.Visibility = Visibility.Visible;
+        }
+
+
         public void startsbutton_Click(object sender, RoutedEventArgs e)
         {
             startsbutton.Visibility = Visibility.Collapsed;
@@ -76,7 +89,6 @@ namespace Tales_of_the_Forest_of_Spirits
             pixiebutton.Visibility = Visibility.Visible;
             elfbutton.Visibility = Visibility.Visible;
             bansheebutton.Visibility = Visibility.Visible;
-      
         }
 
         private void pixiebutton_Click(object sender, RoutedEventArgs e)
@@ -87,14 +99,9 @@ namespace Tales_of_the_Forest_of_Spirits
             fear = false;
             creature = "p";
             pixiebutton.Content = "";
-            chooselabel.Visibility = Visibility.Collapsed;
             elfbutton.Visibility = Visibility.Collapsed;
             bansheebutton.Visibility = Visibility.Collapsed;
-            creaturelabel.Visibility = Visibility.Visible;
-            hplabel.Visibility = Visibility.Visible;
-            namelabel.Visibility = Visibility.Visible;
-            namebox.Visibility = Visibility.Visible;
-            readybutton.Visibility = Visibility.Visible;
+            Vanish();
 
         }
 
@@ -106,14 +113,10 @@ namespace Tales_of_the_Forest_of_Spirits
             fear = false;
             creature = "e";
             elfbutton.Content = "";
-            chooselabel.Visibility = Visibility.Collapsed;
             pixiebutton.Visibility = Visibility.Collapsed;
             bansheebutton.Visibility = Visibility.Collapsed;
-            creaturelabel.Visibility = Visibility.Visible;
-            hplabel.Visibility = Visibility.Visible;
-            namelabel.Visibility = Visibility.Visible;
-            namebox.Visibility = Visibility.Visible;
-            readybutton.Visibility = Visibility.Visible;
+            Vanish();
+
         }
 
         private void bansheebutton_Click(object sender, RoutedEventArgs e)
@@ -124,14 +127,9 @@ namespace Tales_of_the_Forest_of_Spirits
             fear = true;
             creature = "b";
             bansheebutton.Content = "";
-            chooselabel.Visibility = Visibility.Collapsed;
             pixiebutton.Visibility = Visibility.Collapsed;
             elfbutton.Visibility = Visibility.Collapsed;
-            creaturelabel.Visibility = Visibility.Visible;
-            hplabel.Visibility = Visibility.Visible;
-            namelabel.Visibility = Visibility.Visible;
-            namebox.Visibility = Visibility.Visible;
-            readybutton.Visibility = Visibility.Visible;
+            Vanish();
 
         }
 
@@ -173,11 +171,17 @@ namespace Tales_of_the_Forest_of_Spirits
             readybutton.Visibility = Visibility.Collapsed;
             namebox.IsEnabled = false;
             namebox.Margin = new Thickness(10, 150, 0, 0);
+            fightstartbutton.Visibility = Visibility.Visible;
         }
 
         private void namebox_TextChanged(object sender, TextChangedEventArgs e)
         {
             Check();
+        }
+
+        private void fightstartbutton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

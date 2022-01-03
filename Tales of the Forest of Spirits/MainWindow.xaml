@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tales_of_the_Forest_of_Spirits"
         mc:Ignorable="d"
-        Title="MainWindow" Height="535" Width="838" ResizeMode="CanMinimize">
+        Title="MainWindow" Height="563" Width="841" ResizeMode="CanMinimize" Background="White">
     <Grid>
         <Button x:Name="startsbutton" Content="Let the adventure begin" HorizontalAlignment="Center" Margin="0,295,0,0" VerticalAlignment="Top" Height="89" Width="332" FontSize="25" FontFamily="SimSun" Click="startsbutton_Click" BorderBrush="{x:Null}">
             <Button.Background>
@@ -58,6 +58,11 @@
             </Label.Background>
         </Label>
         <Button x:Name="readybutton" Content="Ready!" HorizontalAlignment="Center" Height="45" Margin="0,452,0,0" VerticalAlignment="Top" Width="142" Background="Black" BorderBrush="{x:Null}" FontFamily="SimSun" FontSize="30" Click="readybutton_Click">
+            <Button.Foreground>
+                <ImageBrush ImageSource="/gold.jpg"/>
+            </Button.Foreground>
+        </Button>
+        <Button x:Name="fightstartbutton" Content="Let's begin!" HorizontalAlignment="Center" Height="45" Margin="0,452,0,0" VerticalAlignment="Top" Width="198" Background="Black" BorderBrush="{x:Null}" FontFamily="SimSun" FontSize="30" Click="fightstartbutton_Click">
             <Button.Foreground>
                 <ImageBrush ImageSource="/gold.jpg"/>
             </Button.Foreground>
