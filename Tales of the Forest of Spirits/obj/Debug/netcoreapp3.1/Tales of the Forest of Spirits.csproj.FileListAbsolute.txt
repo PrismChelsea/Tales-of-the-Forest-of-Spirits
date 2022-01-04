@@ -17,3 +17,24 @@ C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of S
 C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.dll
 C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.pdb
 C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.genruntimeconfig.cache
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\bin\Debug\netcoreapp3.1\Tales of the Forest of Spirits.exe
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\bin\Debug\netcoreapp3.1\Tales of the Forest of Spirits.deps.json
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\bin\Debug\netcoreapp3.1\Tales of the Forest of Spirits.runtimeconfig.json
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\bin\Debug\netcoreapp3.1\Tales of the Forest of Spirits.runtimeconfig.dev.json
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\bin\Debug\netcoreapp3.1\Tales of the Forest of Spirits.dll
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\bin\Debug\netcoreapp3.1\Tales of the Forest of Spirits.pdb
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.csprojAssemblyReference.cache
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits_MarkupCompile.cache
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits_MarkupCompile.lref
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.g.resources
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.AssemblyInfoInputs.cache
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.AssemblyInfo.cs
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.csproj.CoreCompileInputs.cache
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.dll
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.pdb
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.genruntimeconfig.cache
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Window1.g.cs
+C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Window1.baml

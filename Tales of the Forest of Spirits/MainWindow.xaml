@@ -42,9 +42,13 @@
                 <ImageBrush ImageSource="/banshee.PNG"/>
             </Button.Background>
         </Button>
-        <Label x:Name="hplabel" Content="" HorizontalAlignment="Left" Height="37" Margin="10,11,0,0" VerticalAlignment="Top" Width="88" FontFamily="SimSun" FontSize="20" IsVisibleChanged="hplabel_IsVisibleChanged"/>
+        <Label x:Name="hplabel" Content="" HorizontalAlignment="Left" Height="37" Margin="10,11,0,0" VerticalAlignment="Top" Width="88" FontFamily="SimSun" FontSize="20" IsVisibleChanged="hplabel_IsVisibleChanged">
+            <Label.BorderBrush>
+                <ImageBrush ImageSource="/gold.jpg"/>
+            </Label.BorderBrush>
+        </Label>
         <Label x:Name="creaturelabel" Content="" HorizontalAlignment="Left" Height="37" Margin="103,11,0,0" VerticalAlignment="Top" Width="672" FontFamily="SimSun" FontSize="20" IsVisibleChanged="creaturelabel_IsVisibleChanged"/>
-        <TextBox x:Name="namebox" HorizontalAlignment="Left" Height="45" Margin="475,384,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Cursor="IBeam" SelectionBrush="{x:Null}" Background="{x:Null}" FontFamily="SimSun" FontSize="30" TextChanged="namebox_TextChanged">
+        <TextBox x:Name="namebox" HorizontalAlignment="Left" Height="45" Margin="475,384,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Cursor="IBeam" SelectionBrush="{x:Null}" Background="{x:Null}" FontFamily="SimSun" FontSize="30" TextChanged="namebox_TextChanged" MinWidth="100">
             <TextBox.BorderBrush>
                 <ImageBrush ImageSource="/gold.jpg"/>
             </TextBox.BorderBrush>

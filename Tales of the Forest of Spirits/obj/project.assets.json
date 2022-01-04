@@ -8,19 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\gomcs\\.nuget\\packages\\": {}
+    "C:\\Users\\tanulo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gomcs\\Documents\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits.csproj",
+      "projectUniqueName": "C:\\Users\\tanulo\\Documents\\GitHub\\Tales-of-the-Forest-of-Spirits\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits.csproj",
       "projectName": "Tales of the Forest of Spirits",
-      "projectPath": "C:\\Users\\gomcs\\Documents\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits.csproj",
-      "packagesPath": "C:\\Users\\gomcs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gomcs\\Documents\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\obj\\",
+      "projectPath": "C:\\Users\\tanulo\\Documents\\GitHub\\Tales-of-the-Forest-of-Spirits\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits.csproj",
+      "packagesPath": "C:\\Users\\tanulo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tanulo\\Documents\\GitHub\\Tales-of-the-Forest-of-Spirits\\Tales of the Forest of Spirits\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\gomcs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tanulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +68,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
