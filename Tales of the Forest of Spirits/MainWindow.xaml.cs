@@ -12,7 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using Microsoft.Win32;
+using System.IO;
 
 
 
@@ -28,6 +29,9 @@ namespace Tales_of_the_Forest_of_Spirits
         public bool magic = false;
         public bool fear = false;
         public string creature;
+        int strength = 0;
+        int vitality = 0;
+        int szetoszthato = 10;
 
 
         public MainWindow()
@@ -46,7 +50,12 @@ namespace Tales_of_the_Forest_of_Spirits
             readybutton.Visibility = Visibility.Collapsed;
             readybutton.IsEnabled = false;
             fightstartbutton.Visibility = Visibility.Collapsed;
-
+            vitalitylabel.Visibility = Visibility.Collapsed;
+            vtButton.Visibility = Visibility.Collapsed;
+            vtButton2.Visibility = Visibility.Collapsed;
+            vt.Visibility = Visibility.Collapsed;
+            dowritebutton.Visibility = Visibility.Collapsed;
+            szetoszthatoLabel.Visibility = Visibility.Collapsed;
 
         }
 
@@ -172,6 +181,12 @@ namespace Tales_of_the_Forest_of_Spirits
             namebox.IsEnabled = false;
             namebox.Margin = new Thickness(10, 150, 0, 0);
             fightstartbutton.Visibility = Visibility.Visible;
+            vitalitylabel.Visibility = Visibility.Visible;
+            vtButton.Visibility = Visibility.Visible;
+            vtButton2.Visibility = Visibility.Visible;
+            vt.Visibility = Visibility.Visible;
+            dowritebutton.Visibility = Visibility.Visible;
+            szetoszthatoLabel.Visibility = Visibility.Visible;
         }
 
         private void namebox_TextChanged(object sender, TextChangedEventArgs e)
@@ -182,6 +197,44 @@ namespace Tales_of_the_Forest_of_Spirits
         private void fightstartbutton_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+        
+
+        private void vtbutton2_Click(object sender, RoutedEventArgs e)
+        {
+            strength--;
+            vt.Text = strength.ToString();
+            szetoszthato++;
+            szetoszthatoLabel.Content = szetoszthato;
+            if (szetoszthato == 10)
+            {
+                vtButton2.IsEnabled = false;
+            }
+            vtButton.IsEnabled = true;
+        }
+
+        private void vtButton_Click(object sender, RoutedEventArgs e)
+        {
+            strength++;
+            vt.Text = strength.ToString();
+            szetoszthato--;
+            szetoszthatoLabel.Content = szetoszthato;
+            if (szetoszthato == 0)
+            {
+                vtButton.IsEnabled = false;
+            }
+            vtButton2.IsEnabled = true;
+        }
+
+        private void dowritebutton_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog filedowrite = new OpenFileDialog();
+            filedowrite.Filter = "Szöveges állományok (*.txt)|*.txt|Minden állomány (*.*)|*.*";
+            if (filedowrite.ShowDialog() == true)
+            {
+                StreamReader sr = new StreamReader(filedowrite.FileName);
+                sr.Close();
+            }
         }
     }
 }

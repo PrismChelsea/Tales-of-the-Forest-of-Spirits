@@ -71,6 +71,42 @@
                 <ImageBrush ImageSource="/gold.jpg"/>
             </Button.Foreground>
         </Button>
+        <Label x:Name="szetoszthatoLabel" Content="10" HorizontalAlignment="Left" Margin="350,160,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.465,0.017" FontSize="25" FontFamily="SimSun" Height="38">
+            <Label.BorderBrush>
+                <ImageBrush ImageSource="/gold.jpg"/>
+            </Label.BorderBrush>
+        </Label>
+        <TextBox x:Name="vt" HorizontalAlignment="Left" Margin="510,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="0" IsReadOnlyCaretVisible="True" Height="50" FontSize="25" FontFamily="SimSun">
+            <TextBox.Foreground>
+                <ImageBrush ImageSource="/gold.jpg"/>
+            </TextBox.Foreground>
+            <TextBox.BorderBrush>
+                <ImageBrush ImageSource="/gold.jpg"/>
+            </TextBox.BorderBrush>
+        </TextBox>
+        <Button x:Name="vtButton2" Content="-" HorizontalAlignment="Left" Margin="455,117,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="vtbutton2_Click" Background="Black" FontSize="25" FontFamily="SimSun">
+            <Button.Foreground>
+                <ImageBrush ImageSource="/gold.jpg"/>
+            </Button.Foreground>
+            <Button.BorderBrush>
+                <ImageBrush ImageSource="/gold.jpg"/>
+            </Button.BorderBrush>
+        </Button>
+        <Button x:Name="vtButton" Content="+" HorizontalAlignment="Left" Margin="640,117,0,0" VerticalAlignment="Top" Click="vtButton_Click" Background="Black" Height="50" Width="50" FontSize="25" FontFamily="SimSun">
+            <Button.BorderBrush>
+                <ImageBrush ImageSource="/gold.jpg"/>
+            </Button.BorderBrush>
+            <Button.Foreground>
+                <ImageBrush ImageSource="/gold.jpg"/>
+            </Button.Foreground>
+        </Button>
+        <Label x:Name="vitalitylabel" Content="Vitality" HorizontalAlignment="Left" Margin="515,68,0,0" VerticalAlignment="Top" FontFamily="SimSun" FontSize="25"/>
+
+        <Button x:Name="dowritebutton" Content="Save as file" HorizontalAlignment="Left" Margin="480,188,0,0" VerticalAlignment="Top" Height="50" Width="180" Click="dowritebutton_Click" BorderBrush="{x:Null}" FontFamily="SimSun" FontSize="25">
+            <Button.Background>
+                <ImageBrush ImageSource="/gold.jpg"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>
