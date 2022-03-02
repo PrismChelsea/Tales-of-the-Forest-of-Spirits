@@ -5,19 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tales_of_the_Forest_of_Spirits"
         mc:Ignorable="d"
-        Title="MainWindow" Height="563" Width="841" ResizeMode="CanMinimize" Background="White">
+        Title="Tales of the Forest of Spirits" Height="563" Width="841" ResizeMode="CanMinimize" Background="White" Topmost="True" Icon="/gold.jpg">
     <Grid>
-        <Button x:Name="startsbutton" Content="Let the adventure begin" HorizontalAlignment="Center" Margin="0,295,0,0" VerticalAlignment="Top" Height="89" Width="332" FontSize="25" FontFamily="SimSun" Click="startsbutton_Click" BorderBrush="{x:Null}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="837*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="startsbutton" Content="Let the adventure begin" HorizontalAlignment="Left" Margin="254,295,0,0" VerticalAlignment="Top" Height="89" Width="332" FontSize="25" FontFamily="SimSun" Click="startsbutton_Click" BorderBrush="{x:Null}">
             <Button.Background>
                 <ImageBrush ImageSource="/gold.jpg" TileMode="Tile"/>
             </Button.Background>
         </Button>
-        <Label x:Name="welcomelabel" Content="Tales of the Forest of Spirits" HorizontalAlignment="Center" Height="71" VerticalAlignment="Center" Width="656" FontSize="40" FontStyle="Italic" FontFamily="SimSun" FontWeight="Bold">
+        <Label x:Name="welcomelabel" Content="Tales of the Forest of Spirits" HorizontalAlignment="Left" Height="71" VerticalAlignment="Center" Width="656" FontSize="40" FontStyle="Italic" FontFamily="SimSun" FontWeight="Bold" Margin="92,0,0,0">
             <Label.Foreground>
                 <ImageBrush ImageSource="/gold.jpg"/>
             </Label.Foreground>
         </Label>
-        <Label x:Name="chooselabel" Content="What creature would you like to be?" HorizontalAlignment="Center" Height="64" Margin="0,340,0,0" VerticalAlignment="Top" Width="540" FontFamily="SimSun" FontSize="30"/>
+        <Label x:Name="chooselabel" Content="What creature would you like to be?" HorizontalAlignment="Left" Height="64" Margin="150,340,0,0" VerticalAlignment="Top" Width="540" FontFamily="SimSun" FontSize="30"/>
         <Button x:Name="pixiebutton" Content="Pixie" HorizontalAlignment="Left" Height="180" Margin="72,68,0,0" VerticalAlignment="Top" Width="179" FontFamily="SimSun" FontSize="20" Click="pixiebutton_Click" BorderBrush="{x:Null}">
             <Button.Foreground>
                 <ImageBrush ImageSource="/gold.jpg"/>
@@ -26,7 +30,7 @@
                 <ImageBrush ImageSource="/pixie.PNG"/>
             </Button.Background>
         </Button>
-        <Button x:Name="elfbutton" Content="Elf" HorizontalAlignment="Center" Height="180" Margin="0,73,0,0" VerticalAlignment="Top" Width="180" FontFamily="SimSun" FontSize="20" Click="elfbutton_Click" BorderBrush="{x:Null}">
+        <Button x:Name="elfbutton" Content="Elf" HorizontalAlignment="Left" Height="180" Margin="330,73,0,0" VerticalAlignment="Top" Width="180" FontFamily="SimSun" FontSize="20" Click="elfbutton_Click" BorderBrush="{x:Null}">
             <Button.Foreground>
                 <ImageBrush ImageSource="/gold.jpg"/>
             </Button.Foreground>
@@ -61,51 +65,15 @@
                 <ImageBrush ImageSource="/gold.jpg"/>
             </Label.Background>
         </Label>
-        <Button x:Name="readybutton" Content="Ready!" HorizontalAlignment="Center" Height="45" Margin="0,452,0,0" VerticalAlignment="Top" Width="142" Background="Black" BorderBrush="{x:Null}" FontFamily="SimSun" FontSize="30" Click="readybutton_Click">
+        <Button x:Name="readybutton" Content="Ready!" HorizontalAlignment="Left" Height="45" Margin="350,452,0,0" VerticalAlignment="Top" Width="142" Background="Black" BorderBrush="{x:Null}" FontFamily="SimSun" FontSize="30" Click="readybutton_Click">
             <Button.Foreground>
                 <ImageBrush ImageSource="/gold.jpg"/>
             </Button.Foreground>
         </Button>
-        <Button x:Name="fightstartbutton" Content="Let's begin!" HorizontalAlignment="Center" Height="45" Margin="0,452,0,0" VerticalAlignment="Top" Width="198" Background="Black" BorderBrush="{x:Null}" FontFamily="SimSun" FontSize="30" Click="fightstartbutton_Click">
+        <Button x:Name="fightstartbutton" Content="Let's begin!" HorizontalAlignment="Left" Height="45" Margin="322,452,0,0" VerticalAlignment="Top" Width="198" Background="Black" BorderBrush="{x:Null}" FontFamily="SimSun" FontSize="30" Click="fightstartbutton_Click">
             <Button.Foreground>
                 <ImageBrush ImageSource="/gold.jpg"/>
             </Button.Foreground>
-        </Button>
-        <Label x:Name="szetoszthatoLabel" Content="10" HorizontalAlignment="Left" Margin="350,160,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.465,0.017" FontSize="25" FontFamily="SimSun" Height="38">
-            <Label.BorderBrush>
-                <ImageBrush ImageSource="/gold.jpg"/>
-            </Label.BorderBrush>
-        </Label>
-        <TextBox x:Name="vt" HorizontalAlignment="Left" Margin="510,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="0" IsReadOnlyCaretVisible="True" Height="50" FontSize="25" FontFamily="SimSun">
-            <TextBox.Foreground>
-                <ImageBrush ImageSource="/gold.jpg"/>
-            </TextBox.Foreground>
-            <TextBox.BorderBrush>
-                <ImageBrush ImageSource="/gold.jpg"/>
-            </TextBox.BorderBrush>
-        </TextBox>
-        <Button x:Name="vtButton2" Content="-" HorizontalAlignment="Left" Margin="455,117,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="vtbutton2_Click" Background="Black" FontSize="25" FontFamily="SimSun">
-            <Button.Foreground>
-                <ImageBrush ImageSource="/gold.jpg"/>
-            </Button.Foreground>
-            <Button.BorderBrush>
-                <ImageBrush ImageSource="/gold.jpg"/>
-            </Button.BorderBrush>
-        </Button>
-        <Button x:Name="vtButton" Content="+" HorizontalAlignment="Left" Margin="640,117,0,0" VerticalAlignment="Top" Click="vtButton_Click" Background="Black" Height="50" Width="50" FontSize="25" FontFamily="SimSun">
-            <Button.BorderBrush>
-                <ImageBrush ImageSource="/gold.jpg"/>
-            </Button.BorderBrush>
-            <Button.Foreground>
-                <ImageBrush ImageSource="/gold.jpg"/>
-            </Button.Foreground>
-        </Button>
-        <Label x:Name="vitalitylabel" Content="Vitality" HorizontalAlignment="Left" Margin="515,68,0,0" VerticalAlignment="Top" FontFamily="SimSun" FontSize="25"/>
-
-        <Button x:Name="dowritebutton" Content="Save as file" HorizontalAlignment="Left" Margin="480,188,0,0" VerticalAlignment="Top" Height="50" Width="180" Click="dowritebutton_Click" BorderBrush="{x:Null}" FontFamily="SimSun" FontSize="25">
-            <Button.Background>
-                <ImageBrush ImageSource="/gold.jpg"/>
-            </Button.Background>
         </Button>
 
     </Grid>

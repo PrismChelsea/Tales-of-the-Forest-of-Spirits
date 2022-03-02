@@ -32,7 +32,6 @@ namespace Tales_of_the_Forest_of_Spirits
         public string creature;
         int strength = 0;
         int vitality = 0;
-        int szetoszthato = 10;
 
 
         public MainWindow()
