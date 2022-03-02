@@ -41,3 +41,9 @@ C:\Users\tanulo\Documents\GitHub\Tales-of-the-Forest-of-Spirits\Tales of the For
 C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Window1.g.cs
 C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Window1.baml
 C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Window2.g.cs
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Window2.baml
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\game.g.cs
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\second.g.cs
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\game.baml
+C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\second.baml

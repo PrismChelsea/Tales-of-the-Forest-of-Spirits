@@ -146,6 +146,10 @@ namespace Tales_of_the_Forest_of_Spirits
 
         private void fightstartbutton_Click(object sender, RoutedEventArgs e)
         {
+            game sw = new game();
+            sw.Show();
+            Close();
+           
 
         }
 
