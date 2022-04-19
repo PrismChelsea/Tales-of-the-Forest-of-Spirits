@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Win32;
 using System.IO;
+using System.Windows.Threading;
 
 
 
@@ -30,8 +31,6 @@ namespace Tales_of_the_Forest_of_Spirits
         public bool fear = false;
 
         public string creature;
-        int strength = 0;
-        int vitality = 0;
 
 
         public MainWindow()

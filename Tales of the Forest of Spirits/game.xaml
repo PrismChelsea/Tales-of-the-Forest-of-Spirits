@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tales_of_the_Forest_of_Spirits"
         mc:Ignorable="d"
-        Title="game" Height="450" Width="800">
+        Title="game" Height="450" Width="800" KeyDown="Window_KeyDown">
     <Grid>
-        
+        <Button x:Name="gamepixie" Content="" HorizontalAlignment="Left" Height="110" Margin="87,240,0,0" VerticalAlignment="Top" Width="66" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/pixie.PNG"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>
