@@ -19,27 +19,39 @@ namespace Tales_of_the_Forest_of_Spirits
     /// </summary>
     public partial class game : Window
     {
+        
         DispatcherTimer timer;
         int k = 0;
         bool alternate = false;
-        int brumm = 0;
+        string movementChecker = "";
+        Rect playerHitBox;
+        Rect upHitBox;
+        Rect downHitBox;
+        Rect leftHitBox;
+        Rect rightHitBox;
+        
+
         public game()
         {
             InitializeComponent();
             timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromMilliseconds(40);
             timer.Tick += timer_Tick;
+
+
+
+            
         }
         void timer_Tick(object sender, EventArgs e)
         {
-            if (brumm == 1)
+            if (movementChecker == "up")
             {
-                Thickness t = gamepixie.Margin;
+                Thickness t = player.Margin;
                 if (alternate == false)
                     t.Top -= 10;
                 else
                     t.Top += 10;
-                gamepixie.Margin = t;
+                player.Margin = t;
                 if (k > 10)
                 {
                     alternate = !alternate;
@@ -50,14 +62,14 @@ namespace Tales_of_the_Forest_of_Spirits
                 timer.Stop();
             }
 
-            else if (brumm == 2)
+            else if (movementChecker  == "down")
             {
-                Thickness t = gamepixie.Margin;
+                Thickness t = player.Margin;
                 if (alternate == false)
                     t.Top += 10;
                 else
                     t.Top -= 10;
-                gamepixie.Margin = t;
+                player.Margin = t;
                 if (k > 10)
                 {
                     alternate = !alternate;
@@ -68,14 +80,14 @@ namespace Tales_of_the_Forest_of_Spirits
                 timer.Stop();
             }
 
-            else if (brumm == 3)
+            else if (movementChecker == "left")
             {
-                Thickness t = gamepixie.Margin;
+                Thickness t = player.Margin;
                 if (alternate == false)
                     t.Left -= 10;
                 else
                     t.Left += 10;
-                gamepixie.Margin = t;
+                player.Margin = t;
                 if (k > 10)
                 {
                     alternate = !alternate;
@@ -86,14 +98,14 @@ namespace Tales_of_the_Forest_of_Spirits
                 timer.Stop();
             }
 
-            else if (brumm == 4)
+            else if (movementChecker == "right")
             {
-                Thickness t = gamepixie.Margin;
+                Thickness t = player.Margin;
                 if (alternate == false)
                     t.Left += 10;
                 else
                     t.Left -= 10;
-                gamepixie.Margin = t;
+                player .Margin = t;
                 if (k > 10)
                 {
                     alternate = !alternate;
@@ -108,26 +120,48 @@ namespace Tales_of_the_Forest_of_Spirits
 
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.Key == Key.Left)
+              if (e.Key == Key.Up)
             {
                 timer.Start();
-                brumm = 3;
+                movementChecker = "up";
+            }
+            else if (e.Key == Key.Down)
+            {
+                timer.Start();
+                movementChecker = "down";
+            }
+
+            else if (e.Key == Key.Left)
+            {
+                timer.Start();
+                movementChecker = "left";
             }
 
             else if (e.Key == Key.Right)
             {
                 timer.Start();
-                brumm = 4;
+                movementChecker = "right";
             }
-            else if (e.Key == Key.Up)
+           
+            
+        }
+
+        public void Interception(object sender, EventArgs e)
+        {
+            if (playerHitBox.IntersectsWith(upHitBox))
             {
-                timer.Start();
-                brumm = 1;
+                playerHitBox.Location = downHitBox.Location;  
             }
-            else if (e.Key == Key.Down)
+
+
+        }
+
+        public void MovementControl(object sender, EventArgs e)
+        {
+            if (movementChecker=="left")
             {
-                timer.Start();
-                brumm = 2;
+                Canvas.GetLeft(player);
+
             }
         }
     }
