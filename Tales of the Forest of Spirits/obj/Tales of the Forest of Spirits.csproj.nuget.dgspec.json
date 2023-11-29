@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gomcs\\Documents\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits.csproj": {}
+    "C:\\Users\\zsold\\Documents\\kiválogatni\\Programozás\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gomcs\\Documents\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits.csproj": {
+    "C:\\Users\\zsold\\Documents\\kiválogatni\\Programozás\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gomcs\\Documents\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits.csproj",
+        "projectUniqueName": "C:\\Users\\zsold\\Documents\\kiválogatni\\Programozás\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits.csproj",
         "projectName": "Tales of the Forest of Spirits",
-        "projectPath": "C:\\Users\\gomcs\\Documents\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits.csproj",
-        "packagesPath": "C:\\Users\\gomcs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gomcs\\Documents\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\obj\\",
+        "projectPath": "C:\\Users\\zsold\\Documents\\kiválogatni\\Programozás\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits.csproj",
+        "packagesPath": "C:\\Users\\zsold\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zsold\\Documents\\kiválogatni\\Programozás\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gomcs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zsold\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -57,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -47,3 +47,31 @@ C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of S
 C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\second.g.cs
 C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\game.baml
 C:\Users\gomcs\Documents\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\second.baml
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\bin\Debug\netcoreapp3.1\Tales of the Forest of Spirits.exe
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\bin\Debug\netcoreapp3.1\Tales of the Forest of Spirits.deps.json
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\bin\Debug\netcoreapp3.1\Tales of the Forest of Spirits.runtimeconfig.json
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\bin\Debug\netcoreapp3.1\Tales of the Forest of Spirits.runtimeconfig.dev.json
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\bin\Debug\netcoreapp3.1\Tales of the Forest of Spirits.dll
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\bin\Debug\netcoreapp3.1\Tales of the Forest of Spirits.pdb
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.csproj.AssemblyReference.cache
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\game.g.cs
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\second.g.cs
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Window1.g.cs
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Window2.g.cs
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits_MarkupCompile.cache
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits_MarkupCompile.lref
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\game.baml
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\second.baml
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Window1.baml
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Window2.baml
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.g.resources
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.AssemblyInfoInputs.cache
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.AssemblyInfo.cs
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.csproj.CoreCompileInputs.cache
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.dll
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.pdb
+C:\Users\zsold\Documents\kiválogatni\Programozás\Tales of the Forest of Spirits\Tales of the Forest of Spirits\obj\Debug\netcoreapp3.1\Tales of the Forest of Spirits.genruntimeconfig.cache
