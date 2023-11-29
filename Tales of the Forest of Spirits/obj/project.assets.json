@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zsold\\Documents\\kiválogatni\\Programozás\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits.csproj",
+      "projectUniqueName": "C:\\Users\\zsold\\Documents\\GitHub\\BlueWolf\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits.csproj",
       "projectName": "Tales of the Forest of Spirits",
-      "projectPath": "C:\\Users\\zsold\\Documents\\kiválogatni\\Programozás\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits.csproj",
+      "projectPath": "C:\\Users\\zsold\\Documents\\GitHub\\BlueWolf\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits.csproj",
       "packagesPath": "C:\\Users\\zsold\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zsold\\Documents\\kiválogatni\\Programozás\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\obj\\",
+      "outputPath": "C:\\Users\\zsold\\Documents\\GitHub\\BlueWolf\\Tales of the Forest of Spirits\\Tales of the Forest of Spirits\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zsold\\AppData\\Roaming\\NuGet\\NuGet.Config",

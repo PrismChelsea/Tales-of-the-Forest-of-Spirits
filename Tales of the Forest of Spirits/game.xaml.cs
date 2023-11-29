@@ -26,7 +26,6 @@ namespace Tales_of_the_Forest_of_Spirits
         public game()
         {
             InitializeComponent();
-            InitializeComponent();
             timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromMilliseconds(40);
             timer.Tick += timer_Tick;
@@ -41,22 +40,34 @@ namespace Tales_of_the_Forest_of_Spirits
                 else
                     t.Top += 10;
                 gamepixie.Margin = t;
-                k++;
                 if (k > 10)
                 {
-                    timer.Stop();
                     alternate = !alternate;
-                    if (alternate != false)
-                    {
-                        k = 0;
-                        timer.Start();
-                    }
-                    else
-                    {
-                        k = 0;
-                    }
+                    timer.Start();
+                    k = 0;
+                    timer.Stop();
                 }
+                timer.Stop();
             }
+
+            else if (brumm == 2)
+            {
+                Thickness t = gamepixie.Margin;
+                if (alternate == false)
+                    t.Top += 10;
+                else
+                    t.Top -= 10;
+                gamepixie.Margin = t;
+                if (k > 10)
+                {
+                    alternate = !alternate;
+                    timer.Start();
+                    k = 0;
+                    timer.Stop();
+                }
+                timer.Stop();
+            }
+
             else if (brumm == 3)
             {
                 Thickness t = gamepixie.Margin;
@@ -112,6 +123,11 @@ namespace Tales_of_the_Forest_of_Spirits
             {
                 timer.Start();
                 brumm = 1;
+            }
+            else if (e.Key == Key.Down)
+            {
+                timer.Start();
+                brumm = 2;
             }
         }
     }
