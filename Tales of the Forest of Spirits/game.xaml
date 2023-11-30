@@ -6,17 +6,13 @@
         xmlns:local="clr-namespace:Tales_of_the_Forest_of_Spirits"
         mc:Ignorable="d"
         Title="game" Height="450" Width="800" KeyDown="Window_KeyDown" >
-    <Grid>
-        <Rectangle Name="player" Height="99" Width="67" Fill="Brown" Canvas.Top="151" Canvas.Left="110" />
-        <Rectangle Name="top" Height="50" Width="178" Fill="Red" Canvas.Top="320" Canvas.Left="721" Margin="311,10,311,374" />
-        <Rectangle Name="down" Height="50" Width="178" Fill="Red" Canvas.Top="320" Canvas.Left="721" Margin="311,374,311,10" />
-        <Rectangle Name="left" Height="178" Width="50" Fill="Red" Canvas.Top="320" Canvas.Left="721" Margin="10,128,740,128" />
-        <Rectangle Name="right" Height="178" Width="50" Fill="Red" Canvas.Top="320" Canvas.Left="721" Margin="740,117,10,139" />
+    <Canvas x:Name="MyCanvas">
+        <Rectangle Name="player" Height="99" Width="67" Fill="Brown" Canvas.Top="179" Canvas.Left="333" />
+        <Rectangle Name="top" Height="50" Width="178" Fill="Red" Canvas.Top="21" Canvas.Left="311" />
+        <Rectangle Name="down" Height="50" Width="178" Fill="Red" Canvas.Top="385" Canvas.Left="311" />
+        <Rectangle Name="left" Height="178" Width="50" Fill="Red" Canvas.Top="139" Canvas.Left="10" />
+        <Rectangle Name="right" Height="178" Width="50" Fill="Red" Canvas.Top="139" Canvas.Left="740" />
+        <Label x:Name="labello" Content="Label" Canvas.Left="563" Canvas.Top="128"/>
 
-        <Button x:Name="gamepixie" Content="" HorizontalAlignment="Left" Height="110" Margin="87,240,0,0" VerticalAlignment="Top" Width="66" BorderBrush="{x:Null}">
-            <Button.Background>
-                <ImageBrush ImageSource="/pixie.PNG"/>
-            </Button.Background>
-        </Button>
-    </Grid>
+    </Canvas>
 </Window>
