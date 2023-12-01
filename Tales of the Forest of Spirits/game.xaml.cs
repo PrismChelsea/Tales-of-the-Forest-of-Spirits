@@ -69,11 +69,11 @@ namespace Tales_of_the_Forest_of_Spirits
 
             if (intersects==true)
             {
-                labello.Content = "yipikájémaderfákör";
+                labello.Content = "yipikájé";
             }
             else
             {
-                labello.Content = "nemmükszikgec";
+                labello.Content = "nemmükszik";
 
             }
            */
